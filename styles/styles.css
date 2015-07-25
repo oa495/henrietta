@@ -1,0 +1,324 @@
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('../fonts/raleway-medium-webfont.eot');
+    src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-medium-webfont.woff') format('woff'),
+         url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway-light-webfont.eot');
+    src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-light-webfont.woff') format('woff'),
+         url('../fonts/raleway-light-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayheavy';
+    src: url('../fonts/raleway-heavy-webfont.eot');
+    src: url('../fonts/raleway-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-heavy-webfont.woff') format('woff'),
+         url('../fonts/raleway-heavy-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-heavy-webfont.svg#ralewayheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    font-weight: normal;
+    line-height: 1.5;
+}
+h1 {
+	text-transform: uppercase;
+    width: 1em;
+    font-size: 180%;
+    letter-spacing: 40px;
+
+}
+h2 {
+    text-transform: uppercase;
+    font-family: "Raleway-Medium", "ralewaymedium", "Century Gothic", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+body {
+    padding: 0;
+	margin: 0;
+    color: black;
+    font-family: "ralewayheavy", "Century Gothic", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    bottom: 0;
+    font-weight:  bold;
+}
+p {
+	font-family: "raleway-light", "Century Gothic", "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+li {
+    list-style: none;
+}
+button {
+    font-family: "Raleway-Medium", "Century Gothic", "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    box-shadow: none;
+    border: 6px solid rgb(255, 218, 241);
+    background-color: transparent;
+    width: 150px;
+    position: relative;
+    margin-top: 560px;
+    margin-left: 27%;
+    transition: border 2s ease;
+}
+button:hover {
+        background-color: rgba(255, 218, 241, 0.3);
+}
+ /** all pages two colors **/
+.daBody {
+    transition: background-color 4s ease;
+    background-color: rgb(255, 218, 241);
+}
+.daBody.galleryp {
+    background-color: rgb(255, 255, 255);
+}
+.background {
+    transition: background-color 4s ease;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 42%;
+    height: 100%; 
+    z-index: -1;
+}
+.background.ap {
+    width: 48%;
+}
+/** First page **/
+	/** navigation **/
+.name {
+    left: 4%;
+    top: 30px;
+	position: fixed;
+}
+.name.op {
+    font-size: 100%;
+    left: 2%;
+    top:10px;
+}
+
+.b-nav, .b-nav-list{
+	position: fixed;
+    right: 5%;
+    bottom: 2%;
+
+}
+.b-nav li {
+    font-size: 16px;
+    padding: 3px;
+    z-index: 2;
+}
+.b-nav-item:hover {
+    border-bottom: 6px solid white;
+}
+.b-nav-item.galleryp:hover {
+    border-bottom: 6px solid rgb(255, 218, 241);
+}
+
+          
+ /** image front page **/
+ .front-images {
+    width: 100%;
+    margin-left: 14%;
+    margin-right: 10%;
+ }
+ .front-images figure {
+    margin-top: 9%;
+    display: inline-block;
+ }
+ .fp-image.one {
+    margin-left: -5%;
+    transition: opacity 3s ease;
+ }
+.fp-image.two {
+    margin-left: -5%;
+    transition: opacity 3s ease;
+}
+.fp-image:hover {
+    opacity: 0.5;
+}
+  /** about page **/
+/**second page bottom nav **/
+ /** second page image**/
+.my-photo {
+    display: block;
+    bottom: 0;
+    position: absolute;
+    margin-left: 45%;
+}
+
+/** social nav **/
+.soc-nav {
+    position: absolute;
+    top: 30px;
+    left: 45%;
+    
+}
+.soc-icon {
+    padding: 8px;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; 
+    -moz-transition: all 2s ease-in-out; 
+    -o-transition: all 2s ease-in-out; 
+    transition: transform 0.8s ease-in-out;
+    -webkit-transition: transform 0.8s ease-in-out; 
+    -moz-transition: transform 0.8s ease-in-out; 
+    -o-transition: transform 0.8s ease-in-out; 
+}
+.soc-icon:hover {
+    opacity: 0.6;
+    transform: translate(15px, 0);
+    -webkit-transform: translate(15px,0);
+    -o-transform: translate(15px,0); 
+    -moz-transform: translate(15px,0); 
+}
+/** second page info section **/
+.about-par {
+    max-width: 400px;
+    text-align: justify;
+    margin-left: 16%;
+    font-size: 110%;
+    position: absolute;
+    margin-top: 18.4%;
+    z-index: 100;
+    padding: 20px;
+}
+.aboutt {
+    margin-top: 15.2%;
+    margin-left: 9%;
+    position: absolute;
+    padding: 20px;
+
+}
+/** gallery pages **/
+#gallery { 
+    max-width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+#gallery img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 20px;
+    padding-bottom: 45px;
+    display: inline;
+}
+
+.gallery-image {
+    transition: opacity 0.4s ease-in-out;
+}
+.gallery-image-opacity {
+    opacity: 0.4;
+    transition: opacity 0.4s ease-in-out;
+}
+
+@media only screen and (max-width : 580px) {
+    .name {
+        font-size: 140%;
+    }
+    .my-photo {
+        display: none;
+    }
+    .soc-nav {
+        top: 8%;
+    }
+    .soc-nav li {
+        top: 30%;
+        padding-bottom: 20px;
+        display: inline;
+    }
+    .soc-icon:hover {
+        transform: translate(0, 0);
+        -webkit-transform: translate(0,0);
+        -o-transform: translate(0,0); 
+        -moz-transform: translate(0,0); 
+    }
+
+    .about-par {
+        padding: 20px;
+        max-width: 60%;
+        font-size: 100%;
+        margin-top: 30%;
+    }
+    .aboutt {
+        margin-top: 18%;
+        margin-left: 16%;
+    }
+
+    .b-nav, .b-nav-list {
+        left: 10px;
+    }
+    .gallery .row {
+        white-space: normal;
+    }
+    .gallery img {
+        padding: 5px;
+        max-width: 80%;
+    }
+    .gallery-image {
+        opacity: 1;
+    }
+}
+
+/*@media only screen and (max-width: 768px) {
+    .soc-nav li {
+        display: inline;
+    }
+    .about-par {
+        max-width: 70%;
+    }
+    .aboutt {
+        margin-top: 12%;
+    }
+    .gallery img {
+        width: 30%;
+        padding: 5px;
+    }
+    .gallery-image {
+        opacity: 1;
+    }
+    
+} */
+
+
+
+
+
+
+
