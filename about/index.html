@@ -3,36 +3,19 @@
     <head>
         <meta charset="utf-8"> 
         <title>Henrietta</title>
-        <link rel="stylesheet" href="../styles/jquery-ui.css">
         <link rel="stylesheet" type="text/css" href="../styles/styles.css">
         <meta name="viewport" content="initial-scale=1">
     </head>
     <body class="daBody">
         <div id="container ap">
             <div class="background ap"></div>
-            <div id="dialog-form" title="Send me a message">
-                <form action="send-email.php" method="post">
-                  <fieldset>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" required value="Jane Smith" class="text ui-widget-content ui-corner-all" >
-                    <label for="email">Email</label>
-                    <input type="email" name="email" required id="email" value="jane@smith.com" class="text ui-widget-content ui-corner-all">
-                    <label for="subject">Subject</label>
-                    <input type="text" name="subject" id="subject" class="text ui-widget-content ui-corner-all">
-                    <label for="message">Message</label>
-                    <input type="text" name="message" required id="message"  class="text ui-widget-content ui-corner-all">
-                    <input class="submit" type="submit">
-                  </fieldset>
-                </form>
-              </div>
-             <main>
+           <main>
                 <section class="my-info">
                     <article class="about">
                         <h2 class="aboutt">About</h2>
                         <p class="about-par">
                            Hey, My name is Henrietta Audu. I'm from Jos, Nigeria and I moved to New York in 2013 to attend the Parsons School of Design where I study Integrated Design. I sew, I draw, I design, I write. A lot of my work is reflective of that and my passion for issues pertaining to my home country and the empowerment of women and people of color. Wanna meet up? Wanna work on a project? Get in touch.
                         </p>
-                        <button id="email-button" type="button">Email</button>
                     </article>
                         <article class="contact">
                         <nav class="social-nav info">
@@ -46,18 +29,20 @@
                 </section>
            </main>
              <nav class="top-nav">
-                  <?php include '../title/title.php'; ?>
+                  <h1 class="name op"><a href="../">H e n r i e t t a</a></h1>
               </nav>
             <figure>
                 <img class="my-photo" src ="../images/fp.jpg"/>
             </figure>
-            <nav class="b-nav otherp">
-              <?php include '../nav/about.php'; ?>
+             <nav class="b-nav otherp">
+                 <ul class="b-nav-list otherp">
+                      <li><a class ="b-nav-item" href="../art/">Art</a></li>
+                      <li><a class ="b-nav-item" href="../photography/">Photography</a></li>
+                      <li><a class ="b-nav-item" href="./">About</a></li>
+                 </ul>
             </nav>
-        </div>
         </div>
     </body>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="../scripts/about.js"></script>
-        <script src="../scripts/jquery-ui.js"></script>
  </html>

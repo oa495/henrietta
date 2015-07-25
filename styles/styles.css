@@ -93,59 +93,9 @@ button {
     transition: border 2s ease;
 }
 button:hover {
-        background-color: rgba(255, 218, 241, 0.7);
+        background-color: rgba(255, 218, 241, 0.3);
 }
  /** all pages two colors **/
-
-
-fieldset { 
-    padding:0; 
-    border:0;
-    margin-top: 10px;
-}
-
-.submit {
-    width: 100px;
-    height: 40px;
-    float: right;
-    background-color:white;
-    border: 5px solid rgb(255, 218, 241);
-    position: relative;
-    cursor: pointer;
-    text-align: center;
-    vertical-align: center;
-    padding: 5px;
-    outline: none;
-    box-shadow: none;
-    font-family: "ralewayheavy", "Century Gothic", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 16px;
-    margin-right: 20px;
-    transition: background-color 2s ease;
-}
-.submit:hover{
-    text-decoration: none;
-    background-color: rgba(255, 218, 241, 0.3);
-}
-
-input[type=text], input[type=email] {
-    margin-bottom:12px; 
-    width:95%; 
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: .4em;
-}
-
-#message {
-    height: 80px;
-}
-
-.incomplete {
-   background-color: rgba(255, 218, 241, 0.5);
-}
-
-.complete {
-    background-color: white;
-}
-
 .daBody {
     transition: background-color 4s ease;
     background-color: rgb(255, 218, 241);
@@ -226,7 +176,7 @@ input[type=text], input[type=email] {
     display: block;
     bottom: 0;
     position: absolute;
-    margin-left: 45.2%;
+    margin-left: 45%;
 }
 
 /** social nav **/
